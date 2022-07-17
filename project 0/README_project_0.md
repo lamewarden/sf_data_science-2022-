@@ -17,16 +17,16 @@
 Guess the number with the least possible attempts 
 
 ### Task
-Write a program for efficient guessing
+Write a program for the efficient guessing
 
 **Rules**
-- Random number from 0 to 100 is taken and we should compose a programm which guesses it as efficient as possible;
+- Random number from 0 to 100 is taken, and we should compose a program which guesses it as efficient as possible;
 - Program should take into account hints for every previous try (if it's smaller or bigger than the guessed number);
 
 #### Evaluation
 Results are evaluated according to the mean guess numbers for 1000 repetitions
 
-**What do we practise?**
+**What do we practice?**
 Learn how to write readable code in python
 
 
