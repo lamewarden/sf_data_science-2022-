@@ -1,0 +1,1 @@
+{"rule":"REPEATED_VERBS","sentence":"^\\QProjects\nProject 0 - game \"guess the number\"\nProject 1 ____\\E$"}
