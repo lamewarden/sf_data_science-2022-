@@ -1,2 +1,3 @@
-# sf_data_science-2022-
+# My Data Science projects
+
 SF_homework
