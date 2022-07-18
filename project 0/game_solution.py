@@ -2,29 +2,30 @@ import numpy as np
 
 def fractions_of_100_predict(number:int=1) -> int:    #number:int - type of value expected on input
                                                       # -> int - type of value expected on output (works as auto stringline tag)
-    """We compare the secret number with the fractions of 100 devided by 2. On every attempt we divide 
-
+    """The easiest way to guess a number is to divide the original interval into the two equal sub-intervals
+    and find in which of them our secret number is (we ask if our secret number is bigger or smaller 
+    than the number in the middle of the interval). On every step, the interval shrinks two-fold 
+    until it becomes an interval with a single number - our secret number (if it was not found earlier by accident).
     Args:
-        number (int, optional): the secret number. Defaults to 1.
+        number (int, optional): the secret number. Default is 1.
 
     Returns:
-        int: num of tries required
+        int: num of guesses required to find a secret number.
     """
     
-    count = 0
-    guess = 0   #variable representing the size of step from the previous guess
+    count = 0   #the number of attempts
+    guess = 0   #variable representing the direction in which our interval will shrink (+ or -)
     predict_number = 50     # We are starting from the middle of the 100
     
     while True:
         count += 1
-
-
-        predict_number = predict_number + guess # previous prediction plus (or minus)
-        if number < predict_number:
-            guess = -(100//(2**(count+1)))
+        predict_number = predict_number + guess # defining the new search interval
+        if number < predict_number:     # if a secret number is smaller than the max of the new interval,
+                                        # we go lower (-)
+            guess = -(100//(2**(count+1)))  #interval is decreasing two-fold each next guess
             if guess > -1:  #avoiding the trap of guess rounded to 0
                 guess = -1
-        elif number > predict_number:
+        elif number > predict_number:   # if a secret number is bigger the max of the interval, we go higher (+)
             guess = 100//(2**(count+1))
             if guess < 1:   #avoiding the trap of guess rounded to 0
                 guess = 1

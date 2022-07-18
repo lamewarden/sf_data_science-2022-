@@ -21,8 +21,8 @@ Guess the number with the least possible attempts
 Write a program for the efficient guessing
 
 ### Rules:
-- Random number from 0 to 100 is taken, and we should compose a program which guesses it as efficient as possible;
-- Program should take into account hints for every previous try (if it's smaller or bigger than the guessed number);
+- A random number from 0 to 100 is taken, and we should compose a program that guesses it as efficient as possible;
+- The program should take into account hints for every previous try (if it's smaller or bigger than the guessed number);
 
 ### Evaluation
 Results are evaluated according to the mean guess numbers for 1000 repetitions
@@ -32,11 +32,12 @@ Learn how to write readable and reproducible code in python
 
 ## Data description
 
-List of randomly generated numbers ranged from 0 to 100
+The list of randomly generated numbers ranged from 0 to 100
 
 ## Project steps
 
-1. Check out the [baseline solution]()
+1. Check out the [baseline solution](https://github.com/lamewarden/sf_data_science-2022-/blob/main/project%200/game(baseline_solution).py) provided by the teacher.
+2. Modify the function `random_predict` in the [baseline solution](https://github.com/lamewarden/sf_data_science-2022-/blob/main/project%200/game(baseline_solution).py) in order to optimize it. Description of functions' logic is described in the [new function docstring].
 
 ## Results
 
