@@ -21,7 +21,7 @@ Guess the number with the least possible attempts
 Write a program for the efficient guessing
 
 ### Rules:
-- A random number from 0 to 100 is taken, and we should compose a program that guesses it as efficient as possible;
+- A random number from 0 to 100 is taken, and we should compose a program that guesses what it is as efficient as possible;
 - The program should take into account hints for every previous try (if it's smaller or bigger than the guessed number);
 
 ### Evaluation
@@ -37,15 +37,15 @@ The list of randomly generated numbers ranged from 0 to 100
 ## Project steps
 
 1. Check out the [baseline solution](https://github.com/lamewarden/sf_data_science-2022-/blob/main/project%200/game(baseline_solution).py) provided by the teacher.
-2. Modify the function `random_predict` in the [baseline solution](https://github.com/lamewarden/sf_data_science-2022-/blob/main/project%200/game(baseline_solution).py) in order to optimize it. Description of functions' logic is described in the [new function docstring].
+2. Modify the function `random_predict` in the [baseline solution](https://github.com/lamewarden/sf_data_science-2022-/blob/main/project%200/game(baseline_solution).py) in order to optimize it. The description of the new `fractions_of_100_predict` function logic can be found in the [new function docstring](https://github.com/lamewarden/sf_data_science-2022-/blob/main/project%200/game_solution.py).
 
 ## Results
 
-...
+`fractions_of_100_predict` function guess the number in 5 attempts
 
 ## Conclusions
 
-...
+Random guess sucks.
 
 
 
