@@ -41,7 +41,7 @@ The list of randomly generated numbers ranged from 0 to 100
 
 ## Results
 
-`fractions_of_100_predict` function guess the number in 5 attempts
+`fractions_of_100_predict` function guess the secret number in 5 attempts
 
 ## Conclusions
 
