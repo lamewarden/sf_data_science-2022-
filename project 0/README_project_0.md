@@ -28,15 +28,15 @@ Write a program for the efficient guessing
 Results are evaluated according to the mean guess numbers for 1000 repetitions
 
 **What do we practice?**
-Learn how to write readable code in python
+Learn how to write readable and reproducible code in python
 
 ## Data description
 
-...
+List of randomly generated numbers ranged from 0 to 100
 
 ## Project steps
 
-...
+1. Check out the [baseline solution]()
 
 ## Results
 
