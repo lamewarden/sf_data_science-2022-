@@ -40,7 +40,9 @@
 
 ## Results
 
-Все преобразования и визуализации были сделаны в [этом jupyter ноутбуке](https://github.com/lamewarden/sf_data_science-2022-/blob/main/Project_1/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20Project%201.ipynb) function guess the secret number in 5 attempts
+Все преобразования и визуализации были сделаны в [этом jupyter ноутбуке](https://github.com/lamewarden/sf_data_science-2022-/blob/main/Project_1/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20Project%201.ipynb) 
+
+Дата сеты, испольщованные в работе могут быть найдены [тут](https://drive.google.com/drive/folders/15X_Q7RYMpAxuLVhJTH_FAumOPSc8sPMf?usp=sharing)
 
 ## Conclusions
 
