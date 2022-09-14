@@ -1,4 +1,4 @@
-# Project 0. Guess the number
+# Project 1. Анализ вакансий с hh.ru
 
 ## Table of contents:
 [1. Project description](https://github.com/lamewarden/sf_data_science-2022-/tree/main/Project_1/README.md#Project-description)
