@@ -11,6 +11,7 @@
 Очистить и подготовить данные для работы соответствующей модели.
 ## 3. Data description
 [Таблица](https://drive.google.com/file/d/1Qj0iYEbD64eVAaaBylJeIi3qvMzxf2C_/view?usp=sharing)
+
 С колонками:
 - `hotel_address` — адрес отеля;
     
